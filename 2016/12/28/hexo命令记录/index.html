@@ -84,19 +84,24 @@
 
 
 
-<meta name="description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化简写
-hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == hexo publishhexo g == hexo generate#生成hexo s == hexo server #启动服务预览hexo d == hexo dep">
+<meta name="description" content="hexo
+npm install hexo -g #安装npm update hexo -g #升级hexo init #初始化简写
+简写hexo n “我的博客” == hexo new “我的博客” //新建文章hexo p == hexo publishhexo g == hexo generate //生成hexo s == hexo server //启动服务预hexo d == hex">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo命令记录">
 <meta property="og:url" content="http://yoursite.com/2016/12/28/hexo命令记录/index.html">
 <meta property="og:site_name" content="阿土的博客">
-<meta property="og:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化简写
-hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == hexo publishhexo g == hexo generate#生成hexo s == hexo server #启动服务预览hexo d == hexo dep">
-<meta property="og:updated_time" content="2016-12-28T14:47:21.141Z">
+<meta property="og:description" content="hexo
+npm install hexo -g #安装npm update hexo -g #升级hexo init #初始化简写
+简写hexo n “我的博客” == hexo new “我的博客” //新建文章hexo p == hexo publishhexo g == hexo generate //生成hexo s == hexo server //启动服务预hexo d == hex">
+<meta property="og:image" content="http://up.boohee.cn/house/u/tm25/magazine/quanzhixian/pic4.jpg">
+<meta property="og:updated_time" content="2016-12-28T15:01:07.713Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo命令记录">
-<meta name="twitter:description" content="hexonpm install hexo -g #安装npm update hexo -g #升级hexo init #初始化简写
-hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == hexo publishhexo g == hexo generate#生成hexo s == hexo server #启动服务预览hexo d == hexo dep">
+<meta name="twitter:description" content="hexo
+npm install hexo -g #安装npm update hexo -g #升级hexo init #初始化简写
+简写hexo n “我的博客” == hexo new “我的博客” //新建文章hexo p == hexo publishhexo g == hexo generate //生成hexo s == hexo server //启动服务预hexo d == hex">
+<meta name="twitter:image" content="http://up.boohee.cn/house/u/tm25/magazine/quanzhixian/pic4.jpg">
 
 
 
@@ -358,10 +363,18 @@ hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == 
       
 
       
-        <blockquote>
-<p>hexo<br>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化<br>简写</p>
-<p>hexo n “我的博客” == hexo new “我的博客” #新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate#生成<br>hexo s == hexo server #启动服务预览<br>hexo d == hexo deploy#部署</p>
+        <h1 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h1><blockquote>
+<p>npm install hexo -g #安装<br>npm update hexo -g #升级<br>hexo init #初始化简写</p>
+<h1 id="简写"><a href="#简写" class="headerlink" title="简写"></a>简写</h1><p>hexo n “我的博客” == hexo new “我的博客” //新建文章<br>hexo p == hexo publish<br>hexo g == hexo generate //生成<br>hexo s == hexo server //启动服务预<br>hexo d == hexo deploy //部署</p>
+<h1 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h1><p>hexo server //Hexo 会监视文件变动并自动更新，您无须重启服务器。<br>hexo server -s //静态模式<br>hexo server -p 5000 //更改端口<br>hexo server -i 192.168.1.1 //自定义 IP</p>
+<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令<br>hexo g #生成静态网页<br>hexo d #开始部署</p>
+<h1 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h1><p>hexo generate #使用 Hexo 生成静态文件快速而且简单<br>hexo generate –watch #监视文件变动</p>
 </blockquote>
+<h1 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">两个命令的作用是相同的</div></pre></td></tr></table></figure>
+<blockquote>
+<p>hexo generate –deploy<br>hexo deploy –generate<br>hexo deploy -g<br>hexo server -g  </p>
+</blockquote>
+<p><img src="http://up.boohee.cn/house/u/tm25/magazine/quanzhixian/pic4.jpg" alt="image"></p>
 
       
     </div>
@@ -447,8 +460,17 @@ hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == 
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/uploads/avatar.jpg"
@@ -716,6 +738,22 @@ hexo n “我的博客” == hexo new “我的博客” #新建文章hexo p == 
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo"><span class="nav-number">1.</span> <span class="nav-text">hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#简写"><span class="nav-number">2.</span> <span class="nav-text">简写</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#服务器"><span class="nav-number">3.</span> <span class="nav-text">服务器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#监视文件变动"><span class="nav-number">4.</span> <span class="nav-text">监视文件变动</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#完成后部署"><span class="nav-number">5.</span> <span class="nav-text">完成后部署</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
